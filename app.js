@@ -2,7 +2,7 @@
 console.log("it is working");
 
 const container = document.getElementById("cookieStand");
-/*const storeContainer = document.getElementById("storeContainer");*/
+const storeContainer = document.getElementById("storeContainer");
 
 function randomNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
